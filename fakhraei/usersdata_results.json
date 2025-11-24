@@ -1,0 +1,59 @@
+{
+  "label_col": "4",
+  "n_samples": 50000,
+  "n_features": 4,
+  "features": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "logreg": {
+    "accuracy": 0.6056,
+    "precision": 0.1063529411764706,
+    "recall": 0.7558528428093646,
+    "f1": 0.18646864686468648,
+    "macro_precision": 0.5404808184143223,
+    "macro_recall": 0.6759481189158502,
+    "macro_f1": 0.46308648816307185,
+    "roc_auc": 0.7610851316769577,
+    "pr_auc": 0.2581328505741038
+  },
+  "random_forest": {
+    "accuracy": 0.9266,
+    "precision": 0.31521739130434784,
+    "recall": 0.1939799331103679,
+    "f1": 0.2401656314699793,
+    "macro_precision": 0.6325879315325726,
+    "macro_recall": 0.5835885625985789,
+    "macro_f1": 0.6008015296154142,
+    "roc_auc": 0.7080121179653658,
+    "pr_auc": 0.1873216305866261
+  },
+  "random_forest_tuned": {
+    "accuracy": 0.932,
+    "precision": 0.36054421768707484,
+    "recall": 0.17725752508361203,
+    "f1": 0.23766816143497757,
+    "roc_auc": 0.7080121179653658,
+    "pr_auc": 0.1873216305866261
+  },
+  "random_forest_best_threshold": 0.6,
+  "classification_report_lr": "              precision    recall  f1-score   support\n\n           0       0.97      0.60      0.74      9402\n           1       0.11      0.76      0.19       598\n\n    accuracy                           0.61     10000\n   macro avg       0.54      0.68      0.46     10000\nweighted avg       0.92      0.61      0.71     10000\n",
+  "classification_report_rf": "              precision    recall  f1-score   support\n\n           0       0.95      0.97      0.96      9402\n           1       0.32      0.19      0.24       598\n\n    accuracy                           0.93     10000\n   macro avg       0.63      0.58      0.60     10000\nweighted avg       0.91      0.93      0.92     10000\n",
+  "class_counts": {
+    "train": {
+      "0": 37610,
+      "1": 2390
+    },
+    "val": {
+      "0": 9403,
+      "1": 597
+    },
+    "test": {
+      "0": 9402,
+      "1": 598
+    }
+  },
+  "mode": "supervised"
+}
