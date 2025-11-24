@@ -1,0 +1,10 @@
+{
+  "loaded_edges": 100000,
+  "loaded_nodes": 161742,
+  "subgraph_nodes": 1000,
+  "subgraph_edges": 0,
+  "avg_degree": 1.2365124704776744,
+  "max_degree": 542,
+  "components": 1000,
+  "avg_clustering_subgraph": 0.0
+}
