@@ -15,7 +15,7 @@ from sklearn.ensemble import RandomForestClassifier, IsolationForest
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, roc_auc_score, average_precision_score, classification_report
 from sklearn.manifold import TSNE
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data", "fakhraei")
 OUT_DIR = os.path.join(BASE_DIR, "output", "fakhraei")
 os.makedirs(OUT_DIR, exist_ok=True)
